@@ -19,4 +19,4 @@ class KillButtonInterface:
             if message.arbitration_id == 0x007:
                 if data[0] == 0:
                     self.running.value = False
-                    print("DEAD")
+                    print("DEAD Test")
